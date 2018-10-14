@@ -1,4 +1,4 @@
-﻿namespace BackgroundTasks.Helpers
+﻿namespace CodeHub.Helpers
 {
 	public enum BackgroundTaskStatus
 	{
