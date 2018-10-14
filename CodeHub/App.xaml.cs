@@ -67,7 +67,7 @@ namespace CodeHub
 
             _ExExecSession = new ExtendedExecutionSession();
             _ExExecSession.Revoked += ExExecSession_Revoked;
-        }
+
 
         private void Activate()
         {
@@ -428,7 +428,6 @@ namespace CodeHub
                                     tag += $"+I{issueNumber}";
                                     group = "Issues";
                                     await svc.NavigateAsync(typeof(IssueDetailView), new Tuple<Repository, Issue>(repo, issue), backPageType: backPageType);
-
                                     break;
 
                                 case "showPr":
